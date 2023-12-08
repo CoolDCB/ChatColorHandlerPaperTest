@@ -1,0 +1,11 @@
+name: ChatColorHandlerPaperTest
+version: '${version}'
+main: me.dave.chatcolorhandlerpapertest.ChatColorHandlerPaperTest
+api-version: '1.20'
+depend:
+  - PlaceholderAPI
+  - MiniPlaceholders
+commands:
+  chatcolorhandlerpapertest:
+    description: ChatColorHandlerPaperTest Command
+    usage: /chatcolorhandlerpapertest
