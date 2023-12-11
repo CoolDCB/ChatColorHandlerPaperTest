@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20-R0.1-SNAPSHOT")
-    implementation("com.github.CoolDCB:ChatColorHandler:v2.3.0")
+    implementation("com.github.CoolDCB:ChatColorHandler:v2.4.0")
 }
 
 java {
@@ -29,7 +29,7 @@ tasks {
     }
 
     shadowJar {
-        relocate("me.dave.chatcolorhandler.", "me.dave.chatcolorhandlerpapertest.libraries.chatcolor.")
+//        relocate("me.dave.chatcolorhandler.", "me.dave.chatcolorhandlerpapertest.libraries.chatcolor.")
 
         val folder = System.getenv("pluginFolder_1-20")
         if (folder != null) destinationDirectory.set(file(folder))
