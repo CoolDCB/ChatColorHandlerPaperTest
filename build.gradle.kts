@@ -29,7 +29,7 @@ tasks {
     }
 
     shadowJar {
-//        relocate("me.dave.chatcolorhandler.", "me.dave.chatcolorhandlerpapertest.libraries.chatcolor.")
+        relocate("me.dave.chatcolorhandler.", "me.dave.chatcolorhandlerpapertest.libraries.chatcolor.")
 
         val folder = System.getenv("pluginFolder_1-20")
         if (folder != null) destinationDirectory.set(file(folder))
