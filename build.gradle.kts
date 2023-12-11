@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20-R0.1-SNAPSHOT")
-    implementation("com.github.CoolDCB:ChatColorHandler:v2.4.0")
+    implementation("com.github.CoolDCB:ChatColorHandler:v2.4.1")
 }
 
 java {
